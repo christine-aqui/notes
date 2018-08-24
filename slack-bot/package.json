@@ -1,0 +1,24 @@
+{
+  "name": "slackbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christine-aqui/slack-bot.git"
+  },
+  "author": "CA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christine-aqui/slack-bot/issues"
+  },
+  "homepage": "https://github.com/christine-aqui/slack-bot#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "nodemon": "^1.17.5",
+    "slackbots": "^1.1.0"
+  }
+}

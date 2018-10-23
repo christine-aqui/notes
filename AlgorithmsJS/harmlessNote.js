@@ -30,3 +30,4 @@ const harmlessNote = (noteText, magtext) => {
 
 // for testing
 // harmlessNote("hello people", "hello world people");
+// O(n) linear time complexity

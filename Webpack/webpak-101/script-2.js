@@ -1,1 +1,1 @@
-export default "Temp mess";
+module.exports = "Hello Webpack";

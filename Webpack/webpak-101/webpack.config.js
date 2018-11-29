@@ -21,6 +21,15 @@ module.exports = {
         // query: {
         //   presets: ["es2015"]
         // }
+      },
+      {
+        // test any css file only
+        test: /\.scss$/,
+        // specify the style and css loader
+        // style-loader - creates style nodes from JS strings
+        // css-loader - translates CSS into CommonJS
+        // sass-loader - compiles Sass to CSS, using Node Sass by default
+        loader: "style-loader!css-loader!sass-loader"
       }
     ] //loaders
   } //module

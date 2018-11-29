@@ -1,2 +1,3 @@
 const message = require("./script-2");
-alert(message);
+// alert(message);
+require("./css/introcomp.scss");
